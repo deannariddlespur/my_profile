@@ -1,0 +1,9 @@
+.repo, .panel-body{
+    min-height:190px;
+}
+.repositories{
+    margin-top: 100px;
+}
+.Github{
+    margin: 20px;
+}

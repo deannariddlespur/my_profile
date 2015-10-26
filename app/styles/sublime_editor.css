@@ -1,0 +1,67 @@
+.sublime_editor{
+  vertical-align: middle;
+  min-height: 500px;
+  max-height: 500px;
+}
+.window {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2%;
+  padding-bottom: 30px;
+}
+.options{
+  height: 25px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 1px solid #D1D1D1;
+  background-color: #F6F6F6;
+  padding: 5px;
+
+}
+.options div{
+  display: inline-block;
+  margin-right: 2px;
+  margin-left: 2px;
+  border-radius: 50px;
+  height: 12px;
+  width: 12px;
+}
+.clos{
+  background-color: red;
+  border: 1px solid #E36865;
+}
+.min{
+ background-color: orange;
+ border: 1px solid #DF9F23;
+}
+.max{
+  background-color: #2FC83E;
+  border: 1px solid #27AC2C;
+}
+.sublime {
+  list-style: none;
+  background: #272821;
+  color: #f1f1f1;
+  font-family: Menlo;
+  font-weight: 200;
+}
+.sublime li {
+  height: 25px;
+  line-height: 25px;
+}
+.sublime .tab {
+  margin-left: 2%;
+  list-style: none;
+}
+.sublime .red {
+  color: #EB5E5B;
+}
+.sublime .blue {
+  color: #5695BF;
+}
+.sublime .green {
+  color: #5AE897;
+}
+.sublime .yellow {
+  color: #F1D35C;
+}

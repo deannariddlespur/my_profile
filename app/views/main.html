@@ -1,0 +1,61 @@
+<div class="profile_img col-sm-4">
+  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANXAAAAJDliZTRlN2YzLTc3Y2UtNDk4Ny04ZWRlLTc5MjZkNGI2ODFlMQ.jpg" alt="">
+  <div class="networks">
+  <h4>DeAnna Riddlespur</h4>
+  <h4>Full Stack Developer</h4>
+    <a href="https://twitter.com/driddlespur"><i class="fa fa-twitter fa-2x"></i></a>
+    <a href="https://mx.linkedin.com/in/deannariddlespur"><i class="fa fa-linkedin fa-2x"></i></a>
+    <a href="https://github.com/deannariddlespur"><i class="fa fa-github fa-2x"></i></a>
+  </div>
+</div>
+<div class="sublime_editor col-sm-8">
+  <div class="options">
+    <div class="clos">
+    </div>
+    <div class="min">
+    </div>
+    <div class="max">
+    </div>
+  </div>
+  <ul class='window sublime'>
+    <li><span class='green'>var</span> deanna = new <strong>Developer</strong>();</li>
+    <li>deanna.name = "<span class='red'>De Anna Riddlespur</span>";</li>
+    <li>deanna.home = "<span class='red'>Guadalajara, Jalisco Mexcio</span>";</li>
+    <li>deanna.twitter = "<span class='red'><a href="https://twitter.com/driddlespur" class="red">@driddlespur</a></span>";</li>
+    <li>deanna.linkedin = "<span class='red'><a href="https://mx.linkedin.com/in/deannariddlespur" class="red"></a></span>";</li>
+    <li>deanna.github = "<span class='red'><a href="https://github.com/deannariddlespur" class="red"></a></span>";</li>
+    <li>deanna.skills = {</li>
+      <ul class='tab'>
+          <li>"<span class='blue'>Javascript</span>": "<span class='yellow'>80%</span>",</li>
+          <li>"<span class='blue'>HTML5</span>": "<span class='yellow'>90%</span>",</li>
+          <li>"<span class='blue'>CSS3</span>": "<span class='yellow'>85%</span>",</li>
+          <li>"<span class='blue'>Python</span>": "<span class='yellow'>75%</span>",</li>
+          <li>"<span class='blue'>Jquery</span>": "<span class='yellow'>80%</span>",</li>
+          <li>"<span class='blue'>Django</span>": "<span class='yellow'>70%</span>",</li>
+          <li>"<span class='blue'>AngularJs</span>": "<span class='yellow'>80%</span>",</li>
+          <li>"<span class='blue'>PHP</span>": "<span class='yellow'>85%</span>"</li>
+        <li>};</li>
+      </ul>
+  </ul>
+</div>
+<div class="row">
+  <div class="Github">
+    <h2>Github Repositories</h2>
+  </div>
+  <div class="" ng-repeat="repo in repos">
+      <div  class="col-sm-4 repo">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">{{repo.name | uppercase}}</h3>
+            </div>
+          <div class="panel-body">
+            <h5>{{repo.description}}</h5>
+            <p>Reposotory language: <span class="label label-success">{{repo.language | uppercase}}</span></p>
+            <span>Default branch: <span class="label label-danger">{{repo.default_branch | uppercase}}</span></span>
+            <p><a href="{{repo.html_url}}">{{repo.name | uppercase}}</a> <i class="fa fa-github fa-1x"></i></p>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
